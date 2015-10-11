@@ -1,0 +1,165 @@
+body {
+	background-color: #f8f8f8;
+	padding: 0px;
+	margin: 0px;
+	font-family: arial,sans-serif;
+	font-size: 1em;
+	color: #333;
+}
+
+.ribbon {
+	height: 2px;
+	background-color: #ff5959;
+ }
+  
+
+h1 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 500;
+	font-size: 46px;
+	line-height: 50px;
+	letter-spacing: -1px;
+}
+
+h2 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+	
+}
+
+h4 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 600;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: none;
+	color: #ff5959;
+	
+}
+
+
+
+.main-header {
+	padding: 20px 20px 0px 20px;
+	margin: 0px;
+	background-color: #fff;
+		/* position: fixed; */
+}
+
+.h-light {
+	font-weight: 200;
+}
+
+.menu-item {
+	margin: 0px;
+	padding: 34px 0px 10px 0px;
+}
+
+.logo-container {
+	text-align: center;
+	display: block;
+	
+}
+
+.logo {
+	display: inline;
+	margin: 12px;
+	
+	
+}
+
+.logo-icon {
+	width: 100px;
+	margin: 0px 0px 0px -20px;
+	
+}
+
+.menu-line {
+	display: inline-block;
+	width: 100%;
+	border-bottom: 1px solid #f1f1f1;	
+}
+
+.menu {
+	float: left;
+	padding: 0px 12px 4px 12px;
+	border-bottom: 2px solid #ff5959;
+	margin:0px;
+	
+}
+
+.button {
+	
+	padding: 6px 12px;
+	margin: 24px 12px 12px 12px;
+	background-color: #ff5959;
+	border-radius: 2px;
+	float: right;
+	
+	text-decoration: none;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.content {
+	clear:both;
+	padding: 12px;
+	margin: 20px;
+	height: 100%
+}
+
+.sidebar-left {
+	display: block;
+	float: left;
+	width: 200px;
+	min-height: 700px;
+	border-right: 1px solid #c8c8c8;
+	margin-right: 0px;
+	padding: 20px;
+}
+
+.content-right {
+	display: block;
+	padding-left: 280px;
+	padding-right: 20px;
+}
+
+.post-item {
+	background-color: #fff;
+	padding: 20px;
+	border: 1px solid #f1f1f1;
+	margin-top: 40px;
+	
+}
+
+.info li {
+	display: inline-block;
+	box-sizing: border-box;
+	  
+}
+
+.date {
+	color: grey;
+	font-family: "Arial", sans-serif;
+	font-weight: normal;
+	font-size: 13px;
+}
+
+.post-image {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+

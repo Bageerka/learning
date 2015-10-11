@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My first blog</title>
+		<link href="blog.css" type="text/css" rel="stylesheet" >
+		<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,400italic,700,300italic' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+		<div class="ribbon"></div>
+		<div class="main-header"> 
+			<div class="logo-container">
+				<h1 class="logo" > <span class="h-light">My</span> SweetBlog </h1>
+				<img id="logo-icon" src="data:image/png;base64,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"/>
+			</div>
+			<div class="menu-line"> 
+				<div class="menu">
+					<h4 class="menu-item"> All Posts </h4> 
+				</div>
+			
+				<a class="button" href=""> Add new post </a>
+				<div style="display:inline; clear: both;">.</div>
+			</div>
+		</div>
+	
+		<div class="container">
+			<div class="sidebar-left"> 
+				<ul class="latest-posts"> <h4>Latest Posts </h4>
+					<li> First post title</li>
+					<li> Second post super long title</li>
+					<li> My 3rd cool post</li>
+					<li> Forth post</li>
+					<li> Post number 2 should be here</li>
+				</ul>
+				
+				<div id="post-amount">5 <span class="h-light">posts on the page</span></div>
+				
+				
+			</div>
+			
+			<div class= "content-right">
+				<div class="post-item"> 
+					<h2>Post Title</h2>
+					
+					<div class="info">
+						<ul>
+							<li class="date">July 17</li>
+							<li> <a href="">Nancy Drew </a></li>
+						</ul>
+					</div>
+						
+					<p>So here we are, the last post... for a while at least. I don't think we could have finished on a more "unfancy" outfit. A white tee and jeans. 
+					Finished out with a front tuck, rolled jeans, "no makeup" makeup, and kinda-messy hair. So plain - so awesome. 
+					I had big plans to end this post with something like, "Now, let's not get all sappy ..." but that's not going to work now. :) <br> 
+					I don't even know what to say after all of your kindness yesterday. Goodness. From the warmest place in my heart: Thank you. 
+					The words seem so flat as I type them, but I hope they jump out of the screen and land somewhere in your heart. 
+					It takes a pretty great human being to spend their precious time encouraging others - thank you for being that person, yesterday and all along this entire journey. 
+					Your words yesterday had me thinking: Any time you use your words to add value to another human being, you are making the world better. 
+					It sounds a little, but think about it. When you feel loved + valued, it's easier to love + value others, right?
+					</p>
+				</div>
+				
+				<div class="post-item"> 
+					<h2>Second Super Long post title </h2>
+					
+					<div class="info">
+						<ul>
+							<li class="date">July 17</li>
+							<li> <a href="">Nancy Drew </a></li>
+						</ul>
+					</div>
+					<img class="post-image" src="http://7-themes.com/data_images/out/26/6857875-sweet-wallpapers.jpg" />
+					<p>SGoodness. From the warmest place in my heart: Thank you. 
+					The words seem so flat as I type them, but I hope they jump out of the screen and land somewhere in your heart. 
+					It takes a pretty great human being to spend their precious time encouraging others - thank you for being that person, yesterday and all along this entire journey. 
+					Your words yesterday had me thinking: Any time you use your words to add value to another human being, you are making the world better. 
+					It sounds a little, but think about it. When you feel loved + valued, it's easier to love + value others, right?
+					</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

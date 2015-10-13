@@ -8,25 +8,26 @@ body {
 }
 
 
-.ribbon {
-	height: 2px;
-	background-color: #ff5959;
- }
+/*----------------general elements--------------------*/
   
 
 h1 {
 	font-family: 'Roboto Condensed', sans-serif;
-	font-weight: 500;
-	font-size: 46px;
-	line-height: 50px;
-	letter-spacing: -1px;
+	font-weight: 400;
+	font-size: 36px;
 }
 
 h2 {
 	font-family: 'Roboto Condensed', sans-serif;
 	font-weight: 400;
-	font-size: 30px;
-	
+	font-size: 28px;
+	}
+
+h3 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+	font-size: 24px;
+	text-transform: uppercase;
 }
 
 h4 {
@@ -42,42 +43,81 @@ a {
 	
 }
 
+p {
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+
+/*-------------------HEADER-----------------------*/
 
 
 .main-header {
-	padding: 20px 20px 0px 20px;
+	
 	margin: 0px;
 	background-color: #fff;
+	border-top: 2px solid #ff5959;
 		/* position: fixed; */
+		
 }
 
-.h-light {
-	font-weight: 200;
+.main-header:scroll {
+	margin: 0px;
+	background-color: #fff;
+	border-top: 2px solid #ff5959;
+	display:fixed; 
 }
+
+
 
 .menu-item {
 	margin: 0px;
 	padding: 34px 0px 10px 0px;
 }
 
+
+
+
+/*--------------------- Logo ------------------------*/
+
 .logo-container {
 	text-align: center;
-	display: block;
-	
+	display: flex;
+	justify-content: center;
+    align-items: baseline;
+	height: 60px;
+	margin: 20px;
 }
 
 .logo {
-	display: inline;
-	margin: 12px;
+	line-height:30px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 500;
+	font-size: 60px;
+	letter-spacing: -1px;
+	margin-top: 0px; margin-bottom: 0px;
+	
+}
+
+.h-light {
+	font-size:24px;
+	text-transform: uppercase;
+	font-weight: 100;
+	font-color: lightgrey;
+	
+}
+
+#logo-icon {
+	width: 60px;
+	padding-top: 0px;
+	
 	
 	
 }
 
-.logo-icon {
-	width: 100px;
-	margin: 0px 0px 0px -20px;
-	
-}
+
+/*--------------------- Menu --------------------------*/
 
 .menu-line {
 	display: inline-block;
@@ -100,12 +140,20 @@ a {
 	background-color: #ff5959;
 	border-radius: 2px;
 	float: right;
-	
 	text-decoration: none;
 	font-family: 'Roboto Condensed', sans-serif;
 	color: white;
 	font-weight: 400;
 	font-size: 16px;
+}
+
+
+
+/*--------------------MAIN BLOCK------------------*/
+
+.container {
+	display: flex;
+    flex-direction: row;
 }
 
 .content {
@@ -115,42 +163,106 @@ a {
 	height: 100%
 }
 
+
+/*-------------------Side bar------------------------*/
+
 .sidebar-left {
 	display: block;
 	float: left;
 	width: 200px;
-	min-height: 700px;
-	border-right: 1px solid #c8c8c8;
-	margin-right: 0px;
+	border-right: 1px solid #f0f0f0;
+	margin: 0px;
 	padding: 20px;
+	background-color: #f2f2f2;
 }
+
+.sidebar-left li {
+	padding-bottom: 10px;
+}
+
+.post-title {
+	font-weight: 500;
+	color: #444;
+}
+
+.post-title:hover {
+	color: #ff5959;
+}
+
+.latest-posts {
+	padding-left: 0px;
+	list-style-type: none;
+}
+
+
+/*------------------------Content--------------------------*/
 
 .content-right {
 	display: block;
-	padding-left: 280px;
-	padding-right: 20px;
+	margin: 20px;
+	
 }
+
+/*----------------- Post item ---------------------*/
 
 .post-item {
 	background-color: #fff;
-	padding: 20px;
+	padding: 10px 30px 20px 30px;
 	border: 1px solid #f1f1f1;
-	margin-top: 40px;
+	margin-bottom: 20px;
 	
 }
 
 .info li {
 	display: inline-block;
-	box-sizing: border-box;
-	  
+	padding-left: 20px;
+  
 }
 
-.date {
+
+/*.date-format {
 	color: grey;
 	font-family: "Arial", sans-serif;
 	font-weight: normal;
 	font-size: 13px;
+}*/
+
+.month {
+	color: white;
+	background-color: #ff5959;
+	width: 40px;
+	height: 25px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	vertical-align: middle;
 }
+
+.title {
+	display: inline-block;
+	float:left;
+	padding:20px 0px;
+}
+
+.title h1 {
+ 	padding-left: 20px;
+
+}
+
+.date-format {
+	padding-right: 20px;
+
+}
+.date {
+	color: grey;
+	background-color: #f0f0f0;
+	width: 40px;
+	height: 25px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	vertical-align: middle;
+}	
 
 .post-image {
 	width: 100%;
